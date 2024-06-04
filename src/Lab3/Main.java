@@ -7,7 +7,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Введите предложение русским текстом: ");
-        Lab3_Vowels s_number = new Lab3_Vowels(in.nextLine());
+        Vowels s_number = new Vowels(in.nextLine());
         s_number.printWordsAndVowels();
         s_number.printAllVowels();
         System.out.println("\nОтсортированные слова (по убыванию кол-ва гласных):");

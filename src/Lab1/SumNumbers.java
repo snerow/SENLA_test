@@ -1,9 +1,9 @@
 package Lab1;
 
-public class Lab1_SumNumbers {
+public class SumNumbers {
     private String str;
 
-    Lab1_SumNumbers(String str)
+    SumNumbers(String str)
     {
         this.str = str;
     }
@@ -26,4 +26,5 @@ public class Lab1_SumNumbers {
         }
         return sum_of_numbers;
     }
+
 }

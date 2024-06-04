@@ -9,7 +9,7 @@ public class Main {
 
         try {
             System.out.println("Введите число: ");
-            Lab2_PrimeFactors s_number = new Lab2_PrimeFactors(in.nextLong());
+            PrimeFactors s_number = new PrimeFactors(in.nextLong());
             System.out.println("\nПростые множители введённого числа: ");
             s_number.primeFactorsNumber();
         } catch (InputMismatchException e) {

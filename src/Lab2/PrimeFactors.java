@@ -1,10 +1,10 @@
 package Lab2;
 
-public class Lab2_PrimeFactors
+public class PrimeFactors
 {
     private long number;
 
-    Lab2_PrimeFactors(long number)
+    PrimeFactors(long number)
     {
         this.number = number;
     }
@@ -19,15 +19,15 @@ public class Lab2_PrimeFactors
 
     public void primeFactorsNumber() {
         double num_sqrt = Math.sqrt(number);
-        long currentValue = number;
+        long current_value = number;
         int multiplier = 2;
 
-        while (currentValue > 1 && multiplier <= num_sqrt)
+        while (current_value > 1 && multiplier <= num_sqrt)
         {
-            if (currentValue % multiplier == 0)
+            if (current_value % multiplier == 0)
             {
                 System.out.print(multiplier + " ");
-                currentValue /= multiplier;
+                current_value /= multiplier;
             }
             else if (multiplier == 2)
             {
@@ -38,10 +38,11 @@ public class Lab2_PrimeFactors
                 multiplier += 2;
             }
         }
-        if (currentValue != 1)
+        if (current_value != 1)
         {
-            System.out.print(currentValue);
+            System.out.print(current_value);
         }
         System.out.println();
     }
+
 }

@@ -1,13 +1,12 @@
 package Lab5;
 
-public class Lab5_SafeDeposit {
+public class SafeDeposit {
     long volume;
-    long value;
 
-    Lab5_SafeDeposit(long volume, long value)
+    SafeDeposit(long volume, long value)
     {
         this.volume = volume;
-        this.value = value;
     }
+    SafeDeposit() {}
 
 }

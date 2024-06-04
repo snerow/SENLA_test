@@ -2,12 +2,12 @@ package Lab3;
 
 import java.util.ArrayList;
 
-public class Lab3_Vowels
+public class Vowels
 {
     private String sentence;
     private ArrayList<OurWord> sentence_arr = new ArrayList<>();
 
-    Lab3_Vowels(String sentence)
+    Vowels(String sentence)
     {
         this.sentence = sentence;
 
@@ -104,4 +104,5 @@ public class Lab3_Vowels
             ourWord.printValues();
         }
     }
+
 }

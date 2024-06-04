@@ -1,10 +1,10 @@
 package Lab4;
 
-public class Lab4_ConsoleNumber
+public class ConsoleNumber
 {
     private String number;
 
-    Lab4_ConsoleNumber(String number)
+    ConsoleNumber(String number)
     {
         this.number = number;
     }
@@ -438,4 +438,5 @@ public class Lab4_ConsoleNumber
         if (i == 6)
             System.out.print("  999  ");
     }
+
 }
