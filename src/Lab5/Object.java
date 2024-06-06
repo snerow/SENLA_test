@@ -1,32 +1,35 @@
 package Lab5;
 
 public class Object {
-    long volume;
-    long value;
 
-    Object(long volume, long value)
-    {
+    private String name;
+    private int volume;
+    private int price;
+
+    public Object(String name, int volume, int price) {
+        this.name = name;
         this.volume = volume;
-        this.value = value;
+        this.price = price;
     }
-    Object() {}
 
-    public void setVolume(long volume) {
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setvolume(int volume) {
         this.volume = volume;
     }
-    public void setValue(long value) {
-        this.value = value;
+    public void setPrice(int price) {
+        this.price = price;
     }
 
-    public long getVolume() {
+
+    public String getName() {
+        return name;
+    }
+    public int getVolume() {
         return volume;
     }
-    public long getValue() {
-        return value;
-    }
-
-    public void printObject()
-    {
-        System.out.println("\nОбъём:\t\t" + volume + "\nЦенность:\t" + value);
+    public int getPrice() {
+        return price;
     }
 }
